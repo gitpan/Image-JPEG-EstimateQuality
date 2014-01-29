@@ -28,11 +28,13 @@ no_index:
 provides:
   Image::JPEG::EstimateQuality:
     file: lib/Image/JPEG/EstimateQuality.pm
-    version: 0.01
+    version: 0.02
 requires:
   perl: 5.008005
 resources:
   bugtracker: https://github.com/dayflower/p5-Image-JPEG-EstimateQuality/issues
   homepage: https://github.com/dayflower/p5-Image-JPEG-EstimateQuality
   repository: git://github.com/dayflower/p5-Image-JPEG-EstimateQuality.git
-version: 0.01
+version: 0.02
+x_contributors:
+  - 'Ben Bullock <benkasminbullock@gmail.com>'

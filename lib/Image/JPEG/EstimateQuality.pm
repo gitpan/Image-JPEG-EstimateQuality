@@ -5,7 +5,7 @@ use warnings;
 use Exporter 'import';
 use Carp;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 our @EXPORT = qw( jpeg_quality );
 
@@ -167,6 +167,13 @@ Returns quality (1-100) of JPEG file.
     file-glob:  file handle
 
 =back
+
+=head1 SCRIPT
+
+A script F<jpeg-quality> distributed with the module prints the quality of a JPEG specified on the command line:
+
+    jpeg-quality image.jpg
+    90
 
 =head1 LICENSE
 
